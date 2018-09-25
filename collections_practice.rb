@@ -49,6 +49,5 @@ end
 def add_s(array)
   array = ["hand", "feet", "knee", "table"]
     array.each_with_index.collect { |word, i| i == 1? word : word + "s"}
-  end
 end
 
