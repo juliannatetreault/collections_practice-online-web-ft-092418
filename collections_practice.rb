@@ -27,7 +27,7 @@ end
 def kesha_maker(array)
   array = ["blake", "ashley", "scott"]
   kesha_array = []
-   array.each_with_index do |name, index|
+   array.each do |name|
       
      kesha_array << 
   end
